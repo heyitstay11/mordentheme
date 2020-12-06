@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Wordpress Theme</title>
+</head>
+<body>
+    <main>
+        <section>
+    <header>
+        <nav>
+                <div class="logo-wrapper">
+                        <h3 >Morden</h3> 
+                        <span> 10   Street   Road  City,  10100  USA </span>
+                      <div class="mobile-menu"> <a class="menu" href="#">Menu</a>
+                        <ul class="mobile-links">
+                            <li><a href="">Home</a></li> 
+                                <li><a href="">About</a></li>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div>
+                 <div class="navigation">
+                        <ul class="link-wrapper">
+                            <li><a href="">Home</a></li> 
+                                <li><a href="">About</a></li>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Contact</a></li>
+                        </ul>
+                        <span class="icon-wrapper">
+                                <span><i class="fab fa-facebook-square"></i> </span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-linkedin"></i></span>
+                                <span><i class="fab fa-wordpress"></i></span>
+                        <span>
+                </div> 
+        </nav>
+      <div class="banner">
+          <div class="banner-content">
+          <h1>Morden Mountain Movers</h1>
+          <p>This   is  cover  block, with  a  heading  a  paragraph  and  a  button  block </p>
+          <button>About&nbsp;us</button>
+        </div>
+        </div>
+    </header>
+</section>
+<section>
+    <div class="info-wrapper">
+        <div class="info">
+            <h1> Excellence</h1>
+            <img src="images/mountain1.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam et cupiditate amet. Adipisci quasi ullam ab nam repellendus laudantium impedit illum officia ducimus doloribus. Voluptates quasi cum facilis vitae rerum!</p>
+        </div>
+        <div class="info">
+            <h1>Professionalism</h1>
+            <img src="images/mountain2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro alias minus ad atque adipisci nemo mollitia eveniet ut voluptatem autem accusamus repudiandae distinctio temporibus, similique ipsa ex iure, tempora voluptatibus.</p>
+        </div>
+        <div class="info">
+            <h1>Expertise</h1>
+            <img src="images/mountain4.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad dicta eum dolor aut dignissimos iste dolores quasi blanditiis provident saepe harum hic temporibus recusandae repudiandae fugit in adipisci, alias ducimus.</p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="speciality-wrapper">
+        <div class="skills">
+            <h1>Strategy</h1>
+            <ul>
+                <li> Lorem ipsum dolor sit amet consectetur</li>
+                <li> nobis dignissimos error quas saepe ea veritatis</li>
+                <li> atque recusandae aliquam corrupti in earum iente voluptatem quo laudantium architecto</li>
+            </ul>
+        </div>
+        <div class="growth">
+            <h1> Growth</h1>
+            <div class="blockquote">
+                <h3>This is a quote block</h3>
+                <cite> this is a citation</cite>
+            </div>
+        </div>
+        <div class="success">
+            <h1> Success</h1>
+            <div>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quibusdam ut odit consequuntur aperiam natus perferendis repellat id ab repudiandae minima magnam iusto ducimus animi error ipsa adipisci delectus sunt!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <div class="about">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolores, in delectus, quae totam eum necessitatibus illum </p>
+            <a  class="links" href="#">More About Us</a>
+        </div>
+        <div class="connect">
+            <h3>Get In Touch</h3>
+            <ul>
+                 <li><a href="#" class="links"> Facebook</a></li>
+                <li><a href="#" class="links"> Twitter</a></li>
+                <li><a href="#" class="links"> Instagram </li></a>
+                <li><a href="#" class="links"> Github </li></a>
+            </ul>   
+        </div>
+   </div>
+   <div class="copyright">
+    <div class="note">Copyright &copy;  2020 </div>
+   </div>
+</footer>
+</main>
+<script language="javascript">
+    let menu = document.querySelector(".menu");
+    let links = document.querySelector(".mobile-links");
+
+    menu.addEventListener("click",toggleLinks)
+
+    function toggleLinks(){
+        links.classList.toggle("visible");
+    }
+</script>
+</body>
+</html>
